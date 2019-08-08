@@ -1,0 +1,22 @@
+.title {
+    color: #0d0d0d;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+
+    &_red {
+        color: red;
+        font-size: 36px;
+        // text-align: left;
+    }
+
+    &_green {
+        color: #60beae;
+        font-size: 20px;
+    }
+    &_link {
+        color: #188298;
+        text-decoration: none;
+    }
+}
