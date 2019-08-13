@@ -1,0 +1,37 @@
+.header {
+    position: absolute;
+    width: 100%;
+    padding-top: 20px;
+    // top: 0;
+    // left: 0;
+    // z-index: 100;
+
+    &__content-inner {
+        display: flex;
+        justify-content: space-between;
+        // position: relative;
+    }
+
+    &__logo {
+        width: 200px;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.menu {
+    &__item {
+        display: inline-block;
+        padding: 25px 15px;
+
+        a {
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 32px;
+            letter-spacing: 1.6px;
+            color: $main-color;
+        }
+    }
+}

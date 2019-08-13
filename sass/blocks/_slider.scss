@@ -1,0 +1,20 @@
+.slider {
+
+    &__bg {
+        min-height: 800px;
+        background: $bg-color;
+
+        img {
+            top: 0;
+            float: right;
+        }
+
+    }
+
+    &__content {
+        // background-image: url('../img/bg-fon.png');
+        // background-repeat: no-repeat;
+        // background-position: right;
+        // min-height: 800px;
+    }
+}
