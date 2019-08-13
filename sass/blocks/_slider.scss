@@ -11,6 +11,19 @@
 
     }
 
+    &__area {
+        position: absolute;
+        left: 0;
+        top: 150px;
+        width: 100%;
+    }
+
+    &__item {
+        min-height: 525px;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
     &__content {
         // background-image: url('../img/bg-fon.png');
         // background-repeat: no-repeat;
