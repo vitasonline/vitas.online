@@ -40,6 +40,7 @@
     }
 
     .menu {
+
         &__item {
 
             padding: 25px 10px;
@@ -53,12 +54,22 @@
             }
         }
     }
+    .slider {
+        &__item {
+            background-position: right 10px top 50px;
+        }
+        &__content {
+            padding: 100px 10px;
+        }
+    }
 }
 
 @media (max-width: 700px) {
     .header {
         &__button-menu {
             display: block;
+            // position: fixed;
+            // right: 0;
         }
 
         &__logo {
@@ -71,17 +82,22 @@
         position: absolute;
         right: 0;
         width: 50%;
-
+        box-shadow: -7px 5px 14px -8px $text-color;
+        border-radius: 20px 0 0 20px;
+        background-color: $bg-color;
+        padding-left: 22px;
+        z-index: 101;
         &__item {
             padding: 0;
             display: block;
             border-bottom: 2px #666 solid;
+            background-color: $bg-color;
+            z-index: 100;
 
             a {
                 padding: 10px 10px;
                 display: block;
-                background-color: #fff;
-                z-index: 100;
+
             }
 
             &:last-child {
@@ -97,8 +113,11 @@
     }
 
     .slider {
+        &__item {
+            background-position: right 10px top 100px;
+        }
         &__content {
-            padding: 100px 10px;
+            padding: 10px 10px;
 
             h1 {
                 font-size: 40px;
