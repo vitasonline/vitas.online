@@ -19,14 +19,14 @@
         <div class="header__logo"><a href="/"><img src="/img/logo.svg" alt="VitasOnLine LOGO"></a></div>
         <nav>
           <div class="header__button-menu">
-              <i class="icon-menu"></i>
+            <i class="icon-menu"></i>
           </div>
           <ul class="menu link-hover-center">
-            <li class="menu__item"><a href="#">Главная</a></li>
-            <li class="menu__item"><a href="#">Обо мне</a></li>
-            <li class="menu__item"><a href="#">Работы</a></li>
-            <li class="menu__item"><a href="#">Услуги</a></li>
-            <li class="menu__item"><a href="#">Контакты</a></li>
+            <li class="menu__item"><a href="/">Главная</a></li>
+            <li class="menu__item"><a href="#info">Обо мне</a></li>
+            <li class="menu__item"><a href="https://yandex.ru/uslugi/profile/VitalijZ-254322">Работы</a></li>
+            <li class="menu__item"><a href="https://yandex.ru/uslugi/profile/VitalijZ-254322">Услуги</a></li>
+            <li class="menu__item"><a href="#contacts">Контакты</a></li>
           </ul>
         </nav>
       </div>
@@ -39,7 +39,7 @@
           <div class="container">
             <div class="slider__content">
               <h1>Программист</h1>
-              <p>PHP, MySQL, C++</p>
+              <p>PHP, SQL, C++</p>
               <div class="slider__button">
                 <a href="#">Подробнее</a>
               </div>
@@ -86,10 +86,70 @@
     </div>
   </section>
 
-  
+  <section class="info" id="info">
+    <div class="container">
+      <div class="info__text">
+        <h2>Обо Мне</h2>
+        <p>Увлекаетесь современными IT технологиями.</p>
+        <p>С 2007 года занимаюсь программированием, разработкой сайтов, графическим дизайном и рекламой.</p>
+        <p>Постоянно сталкиваюсь с решением сложных задач и всегда их довожу до желаемого результата.</p>
+      </div>
+      <div class="info__card-items">
+        <div class="info__card-items-wrap">
+          <div class="info__card-item">
+            <div class="info__card-item-header">
+              <img src="/img/info-icon1.png" alt="" draggable="false">
+            </div>
+            <h3>Разработка</h3>
+            <p>В свой работе использую языки PHP, SQL, JavaScript, CSS3, HTML5.<br>Использую в основном только
+              адаптивную верстку под любое устройство.</p>
+          </div>
+        </div>
+        <div class="info__card-items-wrap">
+          <div class="info__card-item info__card-item_active">
+            <div class="info__card-item-header">
+              <img src="/img/info-icon2.png" alt="" draggable="false">
+            </div>
+            <h3>Дизайн</h3>
+            <p>Работаю в графических программах Photoshop, Illustrator и CorelDRAW. <br> Делаю дизайн баннера, стенда,
+              афиши, листовки, визитки, буклета и др.</p>
+          </div>
+        </div>
+        <div class="info__card-items-wrap">
+          <div class="info__card-item">
+            <div class="info__card-item-header">
+              <img src="/img/info-icon3.png" alt="" draggable="false">
+            </div>
+            <h3>Хобби</h3>
+            <p>Увлекаюсь системами умного дома (IOT), 3D-печатью и проектированием в SolidWorks.<br> Делаю простой
+              качественный видео монтаж со звуком.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <footer class="footer">
-    <div class="footer__info">Copyright © 2019 by <a href="mailto:vitasonline@mail.ru">Vitaly Zarvirov</a></div>
+  <footer class="footer" id="contacts">
+    <div class="container">
+      <div class="footer__contacts">
+        <div class="footer__social">
+          <ul>
+            <li><a href="tel:+79054418560" class="phone"><i class="icon-phone"></i></a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=+79054418560" class="whatsapp"><i class="icon-whatsapp"></i></a></li>
+            <li><a href="mailto:vitasonline@mail.ru" class="email"><i class="icon-email"></i></a></li>
+            <li><a href="http://t.me/vitasonline" class="telegram"><i class="icon-telegram"></i></a></li>
+            <li><a href="http://instagram.com/vitasonline" class="instagram"><i class="icon-instagram"></i></a></li>
+            <li><a href="http://facebook.com/vitasonline" class="facebook"><i class="icon-facebook"></i></a></li>
+            <li><a href="http://vk.com/vitasonline" class="vk"><i class="icon-vk"></i></a></li>
+            <li><a href="http://twitter.com/vitasonline" class="twitter"><i class="icon-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com/vitasonline" class="youtube"><i class="icon-youtube"></i></a></li>
+            <li><a href="skype:vitasonline?chat" class="skype"><i class="icon-skype"></i></a></li>
+            <li><a href="https://github.com/vitasonline" class="git"><i class="icon-git"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__info">Copyright © 2019 by <a href="mailto:vitasonline@mail.ru">Vitaly Zarvirov</a></div>
+    </div>
   </footer>
 
   <script src="/js/jquery.min.js"></script>

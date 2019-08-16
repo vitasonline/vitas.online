@@ -6,27 +6,19 @@
 @import 'libs/animate';
 @import 'libs/decoration';
 
-
 @import 'blocks/header';
+@import 'blocks/info';
 @import 'blocks/footer';
 @import 'blocks/titles';
 @import 'blocks/buttons';
 @import 'blocks/slider';
 @import 'blocks/media';
-/*@import 'blocks/advantages';
-@import 'blocks/consultation';
-@import 'blocks/forms';
-@import 'blocks/carousel';
-@import 'blocks/catalog';
-@import 'blocks/feed';
-@import 'blocks/modal';
-@import 'blocks/pageup';
-@import 'blocks/promo';*/
 
 
 * {
     font-family: 'Open Sans', sans-serif;
 }
+
 .container {
     max-width: 1200px;
     margin: 0 auto;

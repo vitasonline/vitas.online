@@ -1,11 +1,5 @@
 @media (max-width: 1200px) {
     .slider {
-        &__bg {
-            img {
-                // width:70%; 
-            }
-        }
-
         &__item {
 
             background-position: right 10px bottom 10px;
@@ -22,7 +16,6 @@
 
     .menu {
         &__item {
-
             padding: 25px 10px;
 
         }
@@ -30,8 +23,6 @@
 }
 
 @media (max-width: 768px) {
-
-
     .header {
         &__logo {
             width: 180px;
@@ -42,7 +33,6 @@
     .menu {
 
         &__item {
-
             padding: 25px 10px;
 
             a {
@@ -54,10 +44,12 @@
             }
         }
     }
+
     .slider {
         &__item {
             background-position: right 10px top 50px;
         }
+
         &__content {
             padding: 100px 10px;
         }
@@ -68,8 +60,7 @@
     .header {
         &__button-menu {
             display: block;
-            // position: fixed;
-            // right: 0;
+
         }
 
         &__logo {
@@ -87,6 +78,7 @@
         background-color: $bg-color;
         padding-left: 22px;
         z-index: 101;
+
         &__item {
             padding: 0;
             display: block;
@@ -116,6 +108,7 @@
         &__item {
             background-position: right 10px top 100px;
         }
+
         &__content {
             padding: 10px 10px;
 
@@ -132,10 +125,25 @@
 
         }
     }
+
 }
 
 @media (min-width: 700px) {
     .menu {
         display: block !important;
     }
+ 
+}
+
+@media (min-width: 992px) {
+    .info {
+        &__card-items-wrap {
+            -webkit-box-flex: 0;
+            -ms-flex: 0 0 33.333333%;
+            flex: 0 0 33.333333%;
+            max-width: 33.333333%;
+        }
+    }
+
+
 }
